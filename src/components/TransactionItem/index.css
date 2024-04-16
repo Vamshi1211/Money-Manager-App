@@ -1,1 +1,61 @@
 /* Write your CSS here */
+
+.table-row {
+  display: flex;
+  list-style-type: none;
+  border-left: 2px solid #cbd5e1;
+  border-right: 2px solid #cbd5e1;
+  border-bottom: 2px solid #cbd5e1;
+}
+
+.type-container {
+  display: flex;
+}
+
+.delete {
+  height: 40px;
+}
+
+.table-row-cell {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.table-row-cell-2 {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+.type-name {
+  flex-grow: 1;
+}
+.type-value {
+  flex-grow: 1;
+}
+
+.delete-icon-container {
+  background: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  background: transparent;
+  margin-right: 24px;
+  align-self: center;
+  border: none;
+  outline: none;
+  height: 20px;
+}
+
+.transaction-history-list-container {
+  padding: 0px;
+  list-style-type: none;
+  margin-top: 0px;
+}
