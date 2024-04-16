@@ -1,0 +1,117 @@
+/* Write your CSS here */
+.your-balance-container {
+  width: 100%;
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .your-balance-container {
+    /* padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px; */
+    width: 35%;
+  }
+}
+
+.your-amount-information {
+  margin-left: 20px;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+@media screen and (min-width: 768px) {
+  .your-amount-information {
+    margin-left: 30px;
+  }
+}
+
+.amount-heading {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  .amount-heading {
+    font-size: 18px;
+  }
+}
+
+.amount {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+@media screen and (min-width: 768px) {
+  .amount {
+    font-size: 22px;
+  }
+}
+
+.image {
+  height: 60px;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    height: 100px;
+  }
+}
+
+.your-income-container {
+  width: 100%;
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .your-income-container {
+    justify-content: space-around;
+    /* padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px; */
+    width: 35%;
+  }
+}
+
+.your-expenses-container {
+  width: 100%;
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .your-expenses-container {
+    /* padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px; */
+    width: 35%;
+  }
+}
